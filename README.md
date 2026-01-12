@@ -1,24 +1,15 @@
 # Computer Architecture Project
 
-This repository contains all source code and reports for the **Computer Architecture** course project, including a vending machine, a single‑cycle RISC‑V CPU, and a pipelined RISC‑V CPU.
+This repository contains all source code and reports for the **Computer Architecture** course project, including:
+- a vending machine implemented in SystemVerilog,
+- a single‑cycle RISC‑V CPU,
+- several 5‑stage pipelined RISC‑V CPUs (non‑forwarding, forwarding, and branch prediction).
 
 ## Repository structure
 
 - `Milestone 1 - Vending machine/` – Design and simulation of a simple vending machine in SystemVerilog.  
 - `Milestone 2 - SingleCycle-RISCV/` – Single‑cycle RISC‑V (RV32I, with some load/store instructions omitted as required) and its testbenches.  
 - `Milestone 3 - RISCV-Pipeline/` – 5‑stage pipelined RISC‑V CPU with Non‑forwarding, Forwarding, and Branch Prediction variants.  
-
-# Computer Architecture Project
-
-This repository contains all source code and reports for the **Computer Architecture** course project, including:
-- a vending machine implemented in SystemVerilog,
-- a single‑cycle RISC‑V CPU,
-- several 5‑stage pipelined RISC‑V CPUs (non‑forwarding, forwarding, and branch prediction).
-[file:4][file:5][file:6]
-
----
-
-## Tree
 
 ```text
 Milestone 1 - Vending machine/
@@ -86,7 +77,7 @@ Extends the single‑cycle design into a five‑stage RISC‑V pipeline (IF, ID,
 
     + Verification: Verified via Cadence Xcelium and Quartus. [file:6]
 
-# Performance Overview
+### Performance Overview
 
 | Design            | Cycle count | Instruction count | IPC   | Branch mispredict rate |
 |-------------------|------------|-------------------|-------|------------------------|
@@ -96,7 +87,7 @@ Extends the single‑cycle design into a five‑stage RISC‑V pipeline (IF, ID,
 | Branch Prediction | 1543       | 1140              | 0.739 | ≈50.27 %               |
 
 
-# Tools Used
+### Tools Used
 
 - HDL: SystemVerilog.
 - Simulation: Cadence Xcelium (Linux), ModelSim/Quartus Simulator (Windows).
