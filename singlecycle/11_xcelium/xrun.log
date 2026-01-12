@@ -1,0 +1,98 @@
+xrun(64): 23.09-s003: (c) Copyright 1995-2023 Cadence Design Systems, Inc.
+TOOL:	xrun(64)	23.09-s003: Started on Dec 15, 2024 at 19:08:37 +07
+xrun
+	-access +rwc
+	-f ./flist
+		-sv
+		-timescale 1ns/100ps
+		../00_src/alu.sv
+		../00_src/brc.sv
+		../00_src/constant.sv
+		../00_src/controlunit.sv
+		../00_src/immgen.sv
+		../00_src/instr_memory.sv
+		../00_src/lsu.sv
+		../00_src/regfile.sv
+		../00_src/singlecycle.sv
+		../01_bench/scoreboard.sv
+		../01_bench/tlib.svh
+		../01_bench/driver.sv
+		../01_bench/tbench.sv
+		+xmtop+tbench
+Recompiling... reason: unable to stat '/./earth/class/comparch/01_submission/ee3043/ca131/milestone_2/00_src/alu.sv'.
+	Elaborating the design hierarchy:
+		Caching library 'worklib' ....... Done
+	Top level design units:
+		$unit_0x1181dd03
+		tbench
+	Building instance overlay tables: .................... Done
+	Building instance specific data structures.
+	Loading native compiled code:     .................... Done
+	Design hierarchy summary:
+		                   Instances  Unique
+		Modules:                  11      11
+		Registers:               115     115
+		Scalar wires:             39       -
+		Vectored wires:          121       -
+		Always blocks:            24      24
+		Initial blocks:            6       6
+		Cont. assignments:        30      36
+		Pseudo assignments:       72       -
+		Compilation units:         1       1
+		Process Clocks:            7       2
+		Simulation timescale:  100ps
+	Writing initial simulation snapshot: worklib.tbench:sv
+Loading snapshot worklib.tbench:sv .................... Done
+xcelium> source /tools/cadence/XCELIUM2309/tools/xcelium/files/xmsimrc
+xcelium> run
+TEST for SINGLECYCLE
+[     1800]:: 1::ADD...............PASSED
+[    12600]:: 2::SUB...............PASSED
+[    24200]:: 3::XOR...............PASSED
+[    34800]:: 4::OR................PASSED
+[    45600]:: 5::AND...............PASSED
+[    56400]:: 6::SLL...............PASSED
+[    65600]:: 7::SRL...............PASSED
+[    76200]:: 8::SRA...............PASSED
+[    86400]:: 9::SLT...............PASSED
+[    95800]::10::SLTU..............PASSED
+[   105200]::11::ADDI..............PASSED
+[   111600]::12::XORI..............PASSED
+[   118000]::13::ORI...............PASSED
+[   124200]::14::ANDI..............PASSED
+[   130000]::15::SLLI..............PASSED
+[   136400]::16::SRLI..............PASSED
+[   143600]::17::SRAI..............PASSED
+[   151000]::18::SLTI..............PASSED
+[   156200]::19::SLTIU.............PASSED
+[   161400]::20::LUI...............PASSED
+[   166000]::21::AUIPC.............PASSED
+[   169000]::22::LW................PASSED
+[   177200]::23::LH................FAILED
+[   179400]::24::LB................FAILED
+[   181400]::25::LHU...............FAILED
+[   183600]::26::LBU...............FAILED
+[   185600]::27::SW................PASSED
+[   190000]::28::SH................FAILED
+[   193400]::29::SB................FAILED
+[   196600]::30::misaligned........FAILED
+[   200000]::31::BEQ...............PASSED
+[   202200]::32::BNE...............PASSED
+[   204400]::33::BLT...............PASSED
+[   208400]::34::BGE...............PASSED
+[   212400]::35::BLTU..............PASSED
+[   216400]::36::BGEU..............PASSED
+[   220400]::37::JAL...............PASSED
+[   223400]::38::JALR..............PASSED
+[   226400]::39::illegal_insn......PASSED
+
+ count_cycle: 1140
+
+Timeout...
+
+DUT is considered	P A S S E D
+
+Simulation complete via $finish(1) at time 50 US + 0
+../01_bench/tlib.svh:22             $finish;
+xcelium> exit
+TOOL:	xrun(64)	23.09-s003: Exiting on Dec 15, 2024 at 19:08:38 +07  (total: 00:00:01)

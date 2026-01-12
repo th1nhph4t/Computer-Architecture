@@ -1,0 +1,5 @@
+General information about this run 
+-- piranha worklib.singlecycle:sv
+-- TOOL:	cfe64(64)	23.09-s003
+-- Options : +TOOLNAME halsynth -HAL ALL -BB_SIG_SIZE 16384 +DISABLE -MULTI_DRIVEN_REG TRI -NOLOG +PRIM_TRI +FSM_RULE_CHECKS -SYNTHESIS ALL -IGNORE_COMB_INIT -VITAL_BLACKBOX +MDARRAY_ON +SYSVLOG1 +SYSAP +ALLOW_FOREACH +ALLOW_SV_NESTED_IFACE +ALLOW_SV_IFACE_ARRAY +ALLOW_SV_IFACE_FUNC_TASK +IFACE_GENNAME_SUPPORT -CLOG2SUPPORT +ALLOW_UNPCKARR_PARAM +ALLOW_OOMR_FIELD_SELECT +SYSAP +ASSIGN_REPLOPR +ALLOW_INSIDE_SUPPORT -DEFINES /tools/cadence/XCELIUM2309/tools/hal/files/hal.def -DUMP +RULES_LIST +HAL_SIDEFILE xrun.log -PRAGMA ALL -cdslib ./xcelium.d/run.lnx8664.23.09.d/cds.lib -hdlvar ./xcelium.d/run.lnx8664.23.09.d/hdl.var worklib.singlecycle:sv
+-- SMV File is :/earth/class/comparch/ee3043/ca131/Downloads/singlecycle-test/11_xcelium/xcelium.d/worklib/singlecycle/sv/$unit_0x31dd0559.smv

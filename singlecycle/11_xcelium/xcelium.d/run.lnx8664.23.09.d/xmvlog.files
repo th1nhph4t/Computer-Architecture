@@ -1,0 +1,17 @@
+//
+// File created by:  xrun
+// Do not modify this file
+//
+/earth/class/comparch/01_submission/ee3043/ca131/milestone_2/singlecycle/00_src/alu.sv
+/earth/class/comparch/01_submission/ee3043/ca131/milestone_2/singlecycle/00_src/brc.sv
+/earth/class/comparch/01_submission/ee3043/ca131/milestone_2/singlecycle/00_src/constant.sv
+/earth/class/comparch/01_submission/ee3043/ca131/milestone_2/singlecycle/00_src/controlunit.sv
+/earth/class/comparch/01_submission/ee3043/ca131/milestone_2/singlecycle/00_src/immgen.sv
+/earth/class/comparch/01_submission/ee3043/ca131/milestone_2/singlecycle/00_src/instr_memory.sv
+/earth/class/comparch/01_submission/ee3043/ca131/milestone_2/singlecycle/00_src/lsu.sv
+/earth/class/comparch/01_submission/ee3043/ca131/milestone_2/singlecycle/00_src/regfile.sv
+/earth/class/comparch/01_submission/ee3043/ca131/milestone_2/singlecycle/00_src/singlecycle.sv
+/earth/class/comparch/01_submission/ee3043/ca131/milestone_2/singlecycle/01_bench/scoreboard.sv
+/earth/class/comparch/01_submission/ee3043/ca131/milestone_2/singlecycle/01_bench/tlib.svh
+/earth/class/comparch/01_submission/ee3043/ca131/milestone_2/singlecycle/01_bench/driver.sv
+/earth/class/comparch/01_submission/ee3043/ca131/milestone_2/singlecycle/01_bench/tbench.sv

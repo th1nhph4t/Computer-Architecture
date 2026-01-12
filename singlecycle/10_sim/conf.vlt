@@ -1,0 +1,4 @@
+`verilator_config
+lint_off -file "../00_src/../01_bench/driver.sv"
+lint_off -file "../00_src/../01_bench/scoreboard.sv"
+lint_off -file "../00_src/IS61WV25616_model.sv"

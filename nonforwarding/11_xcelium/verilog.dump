@@ -1,0 +1,43 @@
+$date
+    Nov 16, 2024  14:43:54
+$end
+$version
+    TOOL:	xmsim(64)	23.09-s003
+$end
+$timescale
+    100 ps
+$end
+
+$scope module tbench $end
+
+$scope module singlecycle $end
+
+$scope module instr_memory $end
+$var parameter 32 !    SIZE $end
+$upscope $end
+
+
+$scope module lsu $end
+$var parameter  2 "    sel_DM $end
+$var parameter  2 #    sel_IO $end
+$upscope $end
+
+
+$scope module controlunit $end
+$var parameter  1 $    CLEAR $end
+$var parameter  1 %    SET $end
+$upscope $end
+
+$upscope $end
+
+$upscope $end
+
+$enddefinitions $end
+$dumpvars
+1%
+0$
+b11 #
+b1 "
+b1000000000000 !
+$end
+#500000

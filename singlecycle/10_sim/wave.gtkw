@@ -1,0 +1,91 @@
+[*]
+[*] GTKWave Analyzer v3.4.0 (w)1999-2022 BSI
+[*] Thu Nov 14 12:03:44 2024
+[*]
+[dumpfile] "/Volumes/Ermitage/Developer/Plutei/tmp/lab_comparch_sol/singlecycle-test/10_sim/wave.vcd"
+[dumpfile_mtime] "Thu Nov 14 12:02:54 2024"
+[dumpfile_size] 1321821
+[savefile] "/Volumes/Ermitage/Developer/Plutei/tmp/lab_comparch_sol/singlecycle-test/10_sim/wave.gtkw"
+[timestart] 24463600
+[size] 1352 815
+[pos] -1 -1
+*-14.406273 24503600 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+[markername] AA
+[markername] BB
+[markername] CC
+[markername] DD
+[markername] EE
+[markername] FF
+[markername] GG
+[markername] HH
+[markername] II
+[markername] JJ
+[markername] KK
+[markername] LL
+[markername] MM
+[markername] NN
+[markername] OO
+[markername] PP
+[markername] QQ
+[markername] RR
+[markername] SS
+[markername] TT
+[markername] UU
+[markername] VV
+[markername] WW
+[markername] XX
+[markername] YY
+[markername] ZZ
+[treeopen] tbench.
+[treeopen] tbench.singlecycle.
+[treeopen] tbench.singlecycle.lsu.
+[treeopen] tbench.singlecycle.regfile.
+[sst_width] 253
+[signals_width] 250
+[sst_expanded] 1
+[sst_vpaned_height] 234
+@22
+tbench.i_clk
+tbench.i_reset
+tbench.i_io_sw[31:0]
+tbench.o_io_hex0[6:0]
+tbench.o_io_hex1[6:0]
+tbench.o_io_hex2[6:0]
+tbench.o_io_hex3[6:0]
+tbench.o_io_hex4[6:0]
+tbench.o_io_hex5[6:0]
+tbench.o_io_hex6[6:0]
+tbench.o_io_hex7[6:0]
+tbench.o_io_lcd[31:0]
+tbench.o_io_ledg[31:0]
+tbench.o_io_ledr[31:0]
+tbench.o_insn_vld
+@4023
+^>1 /Users/icao/Developer/riscv.py
+tbench.singlecycle.decoder.instr_i[31:0]
+@22
+tbench.singlecycle.regfile.rd_data_i[31:0]
+@28
+tbench.singlecycle.regfile.rd_wren_i
+@22
+tbench.singlecycle.regfile.rd_addr_i[4:0]
+tbench.o_pc_debug[31:0]
+tbench.singlecycle.pc_q[31:0]
+tbench.singlecycle.lsu.dataMemory.DMEM_W[31:0]
+tbench.singlecycle.lsu.dataMemory.paddr_i[12:0]
+tbench.singlecycle.lsu.addr[14:0]
+tbench.singlecycle.lsu.pwdata_i[31:0]
+tbench.singlecycle.lsu.prdata_o[31:0]
+tbench.singlecycle.regfile.rs1_data_o[31:0]
+tbench.singlecycle.regfile.rs2_data_o[31:0]
+tbench.singlecycle.lsu.dataMemory.paddr_i[12:0]
+tbench.singlecycle.lsu.dataMemory.prdata_o[31:0]
+@28
+tbench.singlecycle.lsu.psel_i
+tbench.singlecycle.lsu.psign_i
+@22
+tbench.singlecycle.lsu.rdata_dm[31:0]
+tbench.singlecycle.lsu.rdata[31:0]
+tbench.singlecycle.lsu.prdata_o[31:0]
+[pattern_trace] 1
+[pattern_trace] 0

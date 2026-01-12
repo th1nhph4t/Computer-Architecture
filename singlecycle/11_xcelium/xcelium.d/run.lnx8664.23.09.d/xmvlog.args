@@ -1,0 +1,32 @@
+//
+// File created by:  xrun
+// Do not modify this file
+//
+-XLMODE
+./xcelium.d/run.lnx8664.23.09.d
+-RUNMODE
+-sv
+../00_src/alu.sv
+../00_src/brc.sv
+../00_src/constant.sv
+../00_src/controlunit.sv
+../00_src/immgen.sv
+../00_src/instr_memory.sv
+../00_src/lsu.sv
+../00_src/regfile.sv
+../00_src/singlecycle.sv
+../01_bench/scoreboard.sv
+../01_bench/tlib.svh
+../01_bench/driver.sv
+../01_bench/tbench.sv
+-CDSLIB
+./xcelium.d/run.lnx8664.23.09.d/cdsrun.lib
+-HDLVAR
+./xcelium.d/run.lnx8664.23.09.d/hdlrun.var
+-no_analogsolver
+-MESSAGES
+-UPDATE
+-XLLIBSTORE
+./xcelium.d/run.lnx8664.23.09.d/xllibs
+-ALLOWUNBOUND
+-hastop

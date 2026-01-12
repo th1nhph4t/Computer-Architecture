@@ -1,0 +1,16 @@
+//
+// File created by:  xrun
+// Do not modify this file
+//
+-PARTIALDESIGN
+-cdslib
+./xcelium.d/run.lnx8664.23.09.d/cds.lib
+-hdlvar
+./xcelium.d/run.lnx8664.23.09.d/hdl.var
+worklib.singlecycle:sv
+-logfile
+xrun.log
+-cflag
+-I/tools/cadence/XCELIUM2309/tools/include
+-cflag
+-I/tools/cadence/XCELIUM2309/tools/inca/include
