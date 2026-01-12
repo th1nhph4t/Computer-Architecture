@@ -1,0 +1,39 @@
+halsynth: Loading design snapshot....
+halsynth: Traversing design hierarchy....
+halsynth: *M,_SCOPE: singlecycle.instr_memory
+halsynth: *W,VLGMEM (../00_src/instr_memory.sv,5|0): Module instr_memory has Verilog memories. For large memories, processing may take some time.
+halsynth: *W,BBXSIG (../00_src/instr_memory.sv,5|0): The size of signal 'memory' is greater than 16384 which is specified with BB_SIGSIZE option. Signal 'memory' will be blackboxed and all assignments to the signal will be ignored.
+halsynth: *W,INIUSP (../00_src/instr_memory.sv,7|0): Module instr_memory has an initial block or a variable declaration assignment, which is ignored by synthesis tools.
+halsynth: *M,_SCOPE: singlecycle.regfile
+halsynth: *W,VLGMEM (../00_src/regfile.sv,14|0): Module regfile has Verilog memories. For large memories, processing may take some time.
+halsynth: *W,MULNBA (../00_src/regfile.sv,31|0): In module 'regfile', register 'memory' has multiple non-blocking assignments to same parts.
+halsynth: (../00_src/regfile.sv,32|0): Source HDL information for the error/warning mentioned above.
+halsynth: *M,_SCOPE: singlecycle.alu
+halsynth: *W,MULBAS (../00_src/alu.sv,7|0): In module 'alu', register 'o_alu_data' has multiple blocking assignments.
+halsynth: (../00_src/alu.sv,27|0): Source HDL information for the error/warning mentioned above.
+halsynth: (../00_src/alu.sv,29|0): Source HDL information for the error/warning mentioned above.
+halsynth: (../00_src/alu.sv,30|0): Source HDL information for the error/warning mentioned above.
+halsynth: (../00_src/alu.sv,33|0): Source HDL information for the error/warning mentioned above.
+halsynth: (../00_src/alu.sv,33|0): Source HDL information for the error/warning mentioned above.
+halsynth: (../00_src/alu.sv,35|0): Source HDL information for the error/warning mentioned above.
+halsynth: (../00_src/alu.sv,35|0): Source HDL information for the error/warning mentioned above.
+halsynth: (../00_src/alu.sv,38|0): Source HDL information for the error/warning mentioned above.
+halsynth: (../00_src/alu.sv,38|0): Source HDL information for the error/warning mentioned above.
+halsynth: (../00_src/alu.sv,39|0): Source HDL information for the error/warning mentioned above.
+halsynth: (../00_src/alu.sv,40|0): Source HDL information for the error/warning mentioned above.
+halsynth: (../00_src/alu.sv,41|0): Source HDL information for the error/warning mentioned above.
+halsynth: *M,_SCOPE: singlecycle.lsu
+halsynth: *W,VLGMEM (../00_src/lsu.sv,19|0): Module lsu has Verilog memories. For large memories, processing may take some time.
+halsynth: *W,VLGMEM (../00_src/lsu.sv,20|0): Module lsu has Verilog memories. For large memories, processing may take some time.
+halsynth: *W,VLGMEM (../00_src/lsu.sv,21|0): Module lsu has Verilog memories. For large memories, processing may take some time.
+halsynth: *W,POOBID (../00_src/lsu.sv,68|0): Variable index/range selection of 'switches_memory' is potentially outside the defined range.
+~:CLKOUT
+~:CLKSRD
+~:COMBLP
+~:INPOUT
+~:MUDREG
+~:MULWIR
+~:UNDRIV
+halsynth: *M,_SCOPE: singlecycle
+halsynth: Total errors   = 0.
+halsynth: Total warnings = 10.

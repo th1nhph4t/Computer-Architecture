@@ -1,0 +1,24 @@
+//
+// File created by:  xrun
+// Do not modify this file
+//
++xmtop+tbench
+-MESSAGES
++EMGRLOG
+xrun.log
+-XLSTIME
+1734264866
+-XLKEEP
+-XLMODE
+./xcelium.d/run.lnx8664.23.09.d
+-RUNMODE
+-CDSLIB
+./xcelium.d/run.lnx8664.23.09.d/cds.lib
+-HDLVAR
+./xcelium.d/run.lnx8664.23.09.d/hdl.var
+-XLNAME
+xrun
+-XLVERSION
+"TOOL:	xrun(64)	23.09-s003"
+-XLNAME
+./xcelium.d/run.lnx8664.23.09.d/phobos.doelab.site_01fb9c84-11e8-49ed-9491-065e9d2f093d

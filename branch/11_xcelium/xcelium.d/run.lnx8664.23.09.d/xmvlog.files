@@ -1,0 +1,33 @@
+//
+// File created by:  xrun
+// Do not modify this file
+//
+/earth/class/comparch/01_submission/ee3043/ca131/milestone_2/branch/00_src/ALU.sv
+/earth/class/comparch/01_submission/ee3043/ca131/milestone_2/branch/00_src/arithmetic_shift_right_32bit.sv
+/earth/class/comparch/01_submission/ee3043/ca131/milestone_2/branch/00_src/compare_1bit.sv
+/earth/class/comparch/01_submission/ee3043/ca131/milestone_2/branch/00_src/brcomp.sv
+/earth/class/comparch/01_submission/ee3043/ca131/milestone_2/branch/00_src/compare_4bit.sv
+/earth/class/comparch/01_submission/ee3043/ca131/milestone_2/branch/00_src/compare_8bit.sv
+/earth/class/comparch/01_submission/ee3043/ca131/milestone_2/branch/00_src/compare_16bit.sv
+/earth/class/comparch/01_submission/ee3043/ca131/milestone_2/branch/00_src/compare_32bit_s.sv
+/earth/class/comparch/01_submission/ee3043/ca131/milestone_2/branch/00_src/compare_32bit_u.sv
+/earth/class/comparch/01_submission/ee3043/ca131/milestone_2/branch/00_src/constant.sv
+/earth/class/comparch/01_submission/ee3043/ca131/milestone_2/branch/00_src/hazard_detect.sv
+/earth/class/comparch/01_submission/ee3043/ca131/milestone_2/branch/00_src/ctrl_unit.sv
+/earth/class/comparch/01_submission/ee3043/ca131/milestone_2/branch/00_src/EX_ME.sv
+/earth/class/comparch/01_submission/ee3043/ca131/milestone_2/branch/00_src/ID_EX.sv
+/earth/class/comparch/01_submission/ee3043/ca131/milestone_2/branch/00_src/IF_ID.sv
+/earth/class/comparch/01_submission/ee3043/ca131/milestone_2/branch/00_src/immgen.sv
+/earth/class/comparch/01_submission/ee3043/ca131/milestone_2/branch/00_src/instr_memory.sv
+/earth/class/comparch/01_submission/ee3043/ca131/milestone_2/branch/00_src/logic_shift_left_32bit.sv
+/earth/class/comparch/01_submission/ee3043/ca131/milestone_2/branch/00_src/logic_shift_right_32bit.sv
+/earth/class/comparch/01_submission/ee3043/ca131/milestone_2/branch/00_src/LSU.sv
+/earth/class/comparch/01_submission/ee3043/ca131/milestone_2/branch/00_src/ME_WB.sv
+/earth/class/comparch/01_submission/ee3043/ca131/milestone_2/branch/00_src/reg_file.sv
+/earth/class/comparch/01_submission/ee3043/ca131/milestone_2/branch/00_src/fowarding_unit.sv
+/earth/class/comparch/01_submission/ee3043/ca131/milestone_2/branch/00_src/branch_target_buffer.sv
+/earth/class/comparch/01_submission/ee3043/ca131/milestone_2/branch/00_src/singlecycle.sv
+/earth/class/comparch/01_submission/ee3043/ca131/milestone_2/branch/01_bench/scoreboard.sv
+/earth/class/comparch/01_submission/ee3043/ca131/milestone_2/branch/01_bench/tlib.svh
+/earth/class/comparch/01_submission/ee3043/ca131/milestone_2/branch/01_bench/driver.sv
+/earth/class/comparch/01_submission/ee3043/ca131/milestone_2/branch/01_bench/tbench.sv

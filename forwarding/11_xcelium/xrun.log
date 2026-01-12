@@ -1,0 +1,90 @@
+xrun(64): 23.09-s003: (c) Copyright 1995-2023 Cadence Design Systems, Inc.
+TOOL:	xrun(64)	23.09-s003: Started on Dec 15, 2024 at 19:09:59 +07
+xrun
+	-access +rwc
+	-f ./flist
+		-sv
+		-timescale 1ns/100ps
+		../00_src/ALU.sv
+		../00_src/arithmetic_shift_right_32bit.sv
+		../00_src/compare_1bit.sv
+		../00_src/brcomp.sv
+		../00_src/compare_4bit.sv
+		../00_src/compare_8bit.sv
+		../00_src/compare_16bit.sv
+		../00_src/compare_32bit_s.sv
+		../00_src/compare_32bit_u.sv
+		../00_src/constant.sv
+		../00_src/hazard_detect.sv
+		../00_src/ctrl_unit.sv
+		../00_src/EX_ME.sv
+		../00_src/ID_EX.sv
+		../00_src/IF_ID.sv
+		../00_src/immgen.sv
+		../00_src/instr_memory.sv
+		../00_src/logic_shift_left_32bit.sv
+		../00_src/logic_shift_right_32bit.sv
+		../00_src/LSU.sv
+		../00_src/ME_WB.sv
+		../00_src/reg_file.sv
+		../00_src/forwarding_unit.sv
+		../00_src/singlecycle.sv
+		../01_bench/scoreboard.sv
+		../01_bench/tlib.svh
+		../01_bench/driver.sv
+		../01_bench/tbench.sv
+		+xmtop+tbench
+Loading snapshot worklib.tbench:sv .................... Done
+xcelium> source /tools/cadence/XCELIUM2309/tools/xcelium/files/xmsimrc
+xcelium> run
+TEST for SINGLECYCLE
+[     2200]:: 1::ADD...............PASSED
+[    16200]:: 2::SUB...............PASSED
+[    31000]:: 3::XOR...............PASSED
+[    44400]:: 4::OR................PASSED
+[    58000]:: 5::AND...............PASSED
+[    71600]:: 6::SLL...............PASSED
+[    84200]:: 7::SRL...............PASSED
+[    98200]:: 8::SRA...............PASSED
+[   111800]:: 9::SLT...............PASSED
+[   124600]::10::SLTU..............PASSED
+[   137400]::11::ADDI..............PASSED
+[   145000]::12::XORI..............PASSED
+[   153400]::13::ORI...............PASSED
+[   161600]::14::ANDI..............PASSED
+[   169400]::15::SLLI..............PASSED
+[   178000]::16::SRLI..............PASSED
+[   187200]::17::SRAI..............PASSED
+[   197000]::18::SLTI..............PASSED
+[   204000]::19::SLTIU.............PASSED
+[   211000]::20::LUI...............PASSED
+[   216000]::21::AUIPC.............PASSED
+[   220000]::22::LW................PASSED
+[   232400]::23::LH................FAILED
+[   236000]::24::LB................FAILED
+[   239400]::25::LHU...............FAILED
+[   243000]::26::LBU...............FAILED
+[   246400]::27::SW................PASSED
+[   251600]::28::SH................FAILED
+[   256800]::29::SB................FAILED
+[   261200]::30::misaligned........FAILED
+[   266400]::31::BEQ...............PASSED
+[   269600]::32::BNE...............PASSED
+[   272800]::33::BLT...............FAILED
+[   277600]::34::BGE...............PASSED
+[   284400]::35::BLTU..............PASSED
+[   290800]::36::BGEU..............PASSED
+[   297600]::37::JAL...............PASSED
+[   302200]::38::JALR..............PASSED
+[   306800]::39::illegal_insn......PASSED
+
+ count_cycle: 1543
+
+Timeout...
+
+DUT is considered	P A S S E D
+
+Simulation complete via $finish(1) at time 50 US + 0
+../01_bench/tlib.svh:22             $finish;
+xcelium> exit
+TOOL:	xrun(64)	23.09-s003: Exiting on Dec 15, 2024 at 19:10:00 +07  (total: 00:00:01)
