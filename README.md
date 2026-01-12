@@ -18,7 +18,7 @@ This repository contains all source code and reports for the **Computer Architec
 
 ---
 
-## Repository structure
+## Tree
 
 ```text
 Milestone 1 - Vending machine/
@@ -59,12 +59,12 @@ Milestone 3 - RISCV-Pipeline/
 ```
 -------------------------------------------
 
-Milestone 1 – Vending Machine
+## Milestone 1 – Vending Machine
 Implements a simple vending machine in SystemVerilog that accepts 5, 10, and 25 cent coins, dispenses a soda when the total reaches 20 cents or more, and outputs the remaining change using a compact 3‑bit code. The design is developed and tested entirely using Quartus and ModelSim. [file:4]
 
 -------------------------------------------
 
-Milestone 2 – Single‑Cycle RISC‑V CPU
+## Milestone 2 – Single‑Cycle RISC‑V CPU
 Implements a single‑cycle RV32I processor with dedicated modules for ALU, branch comparison, register file, load/store unit, immediate generator, control unit, and instruction memory. The LH, LB, LHU, LBU, SH, and SB instructions are omitted as required.
 
 Target Hardware: Intel/Altera DE2 FPGA.
@@ -73,7 +73,7 @@ Verification: Validated using Cadence Xcelium on Linux (regression testing) and 
 
 -------------------------------------------
 
-Milestone 3 – 5‑Stage RISC‑V Pipelines
+## Milestone 3 – 5‑Stage RISC‑V Pipelines
 Extends the single‑cycle design into a five‑stage RISC‑V pipeline (IF, ID, EX, MEM, WB). This milestone provides three distinct variants sharing the same test environment:
 
   1. Non-forwarding: Basic pipeline handling hazards via stalls.
@@ -86,7 +86,7 @@ Extends the single‑cycle design into a five‑stage RISC‑V pipeline (IF, ID,
 
     + Verification: Verified via Cadence Xcelium and Quartus. [file:6]
 
-Performance Overview
+# Performance Overview
 
 | Design            | Cycle count | Instruction count | IPC   | Branch mispredict rate |
 |-------------------|------------|-------------------|-------|------------------------|
@@ -96,7 +96,7 @@ Performance Overview
 | Branch Prediction | 1543       | 1140              | 0.739 | ≈50.27 %               |
 
 
-Tools Used
+# Tools Used
 
 - HDL: SystemVerilog.
 - Simulation: Cadence Xcelium (Linux), ModelSim/Quartus Simulator (Windows).
