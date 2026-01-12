@@ -8,7 +8,7 @@ This repository contains all source code and reports for the **Computer Architec
 - `Milestone 2 - SingleCycle-RISCV/` – Single‑cycle RISC‑V (RV32I, with some load/store instructions omitted as required) and its testbenches.  
 - `Milestone 3 - RISCV-Pipeline/` – 5‑stage pipelined RISC‑V CPU with Non‑forwarding, Forwarding, and Branch Prediction variants.  
 
----# Computer Architecture Project
+# Computer Architecture Project
 
 This repository contains all source code and reports for the **Computer Architecture** course project, including:
 - a vending machine implemented in SystemVerilog,
